@@ -465,11 +465,6 @@ span{
     font-size: 30px;
     color: white; /* Default font color */
 }
-
-.inter:hover infont {
-    color: var(--bg-color); /* Change font color on hover */
-}
-
 .contact{
     background-color: var(--bg-color);
 }
