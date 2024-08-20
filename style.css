@@ -465,7 +465,7 @@ span{
     font-size: 30px;
     color: white; /* Default font color */
 }
-.contact{
+/* .contact{
     background-color: var(--bg-color);
 }
 .contact h2{
@@ -498,7 +498,7 @@ span{
 }
 .contact form .btn{
     margin-top: 2rem;
-}
+} */
 .footer{
     position: relative;
     bottom: 0;
@@ -593,12 +593,12 @@ span{
     .services{
         padding-bottom: 7rem;
     }
-    .contact form{
+    /* .contact form{
         flex-direction: column;
     }
     .footer{
         padding: 2rem 3%;
-    }
+    } */
 }
 @media(max-width:895px){
     #menu-icon{
