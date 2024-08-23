@@ -475,17 +475,18 @@ span{
     padding: 20px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-.skill-main {
+.ctop, .cbtm {
     display: flex;
     justify-content: space-between; /* Space out the containers */
     width: 100%;
+    margin-top: 30px;
 }
 
 .container-left, .container-right {
     width: 45%; 
     background-color: var(--bg-color);
     border: 3px solid var(--main-color);
-    height: 300px;
+    height: 450px;
     border-radius: 3rem;
     cursor: pointer;
     transition: 0.4s ease-in-out;/* Adjust width as needed */
@@ -520,23 +521,174 @@ span{
     float: left;
     background: linear-gradient(135deg, rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
 }
-.html{
-    width: 50%;
-    animation: html 3s;
+
+/*programming languages*/
+.C-Language{
+    width: 80%;
+    animation: C-Language 3s;
 }
-.photoshop{
+.PYTHON{
     width: 90%;
-    animation: photoshop 3s;
+    animation: PYTHON 3s;
 }
-@keyframes html{
+.JAVA{
+    width: 85%;
+    animation: JAVA 3s;
+}
+.SQL{
+    width: 80%;
+    animation: SQL 3s;
+}
+@keyframes C-Language{
     0%{
         width: 0;
     }
     100%{
-        width: 50%;
+        width: 80%;
     }
 }
-@keyframes photoshop{
+@keyframes PYTHON{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes JAVA{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes SQL{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+/*Web development tools*/
+.HTML{
+    width: 90%;
+    animation: HTML 3s;
+}
+.CSS{
+    width: 90%;
+    animation: CSS 3s;
+}
+.Javascript{
+    width: 85%;
+    animation: Javascript 3s;
+}
+.JQuery{
+    width: 80%;
+    animation: JQuery 3s;
+}
+.Ajax{
+    width: 80%;
+    animation: JQuery 3s;
+}
+@keyframes HTML{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes CSS{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes Javascript{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes JQuery{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes Ajax{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+
+/*Cobntent Creation tools*/
+.Photoshop{
+    width: 85%;
+    animation: Photoshop 3s;
+}
+.PremierePro{
+    width: 85%;
+    animation: PremierePro 3s;
+}
+.After-Effects{
+    width: 80%;
+    animation: After-Effects 3s;
+}
+.Lightroom{
+    width: 80%;
+    animation: Lightroom 3s;
+}
+.Wondershare-Filmora{
+    width: 90%;
+    animation: Wondershare-Filmora 3s;
+}
+@keyframes Photoshop{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes PremierePro{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes After-Effects{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes Lightroom{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes Wondershare-Filmora{
     0%{
         width: 0;
     }
@@ -545,6 +697,68 @@ span{
     }
 }
 
+
+/*softskills*/
+.Leadership{
+    width: 95%;
+    animation: Leadership 3s;
+}
+.Time-Management{
+    width: 95%;
+    animation: Time-Management 3s;
+}
+.Communication{
+    width: 90%;
+    animation: Communication 3s;
+}
+.Team-Collaboration{
+    width: 90%;
+    animation: Team-Collaboration 3s;
+}
+.Adaptability{
+    width: 80%;
+    animation: Adaptability 3s;
+}
+@keyframes Leadership{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 95%;
+    }
+}
+@keyframes Time-Management{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 95%;
+    }
+}
+@keyframes Communication{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes Team-Collaboration{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes Adaptability{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
 
 
 
